@@ -8,7 +8,8 @@ public class RunStatementExample {
 		int y = 2; // 변수 Y를 선언하고 2를 저장
 		int result = x + y; // 변수 result를 선언하고 X와 Y를 더한 값을 저장
 		System.out.println(result); // println 메소드 호출 => 콘솔에 result값 출력
-
+		//git 연습 주석 추가
+//주석 추가
 	}
 
 }
