@@ -1,8 +1,8 @@
-package HomeWork2;
+package HomeWork;
 
 import java.util.Scanner;
 
-public class Homework02 {
+public class HomeWork2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
