@@ -5,11 +5,9 @@ import java.util.Scanner;
 public class HomeWork3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		Scanner sc = new Scanner(System.in);
-		
-		int a;
 		
 		System.out.print("문자열을 입력하세요.");
 		String str = sc.nextLine();

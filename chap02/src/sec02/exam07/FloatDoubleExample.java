@@ -3,7 +3,7 @@ package sec02.exam07;
 public class FloatDoubleExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		// float (4byte), double (8byte)
 		// 부동소수점 방식으로 저장 
 		// => 같은 크기를 갖는 int(4byte), long(8byte) 보다 더 큰 수를 저장할 수 있음

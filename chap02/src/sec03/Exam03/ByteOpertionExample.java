@@ -3,7 +3,7 @@ package sec03.Exam03;
 public class ByteOpertionExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		// 기본 전제 : 두 개의 값 중 크기가 큰 타입으로 자동 형변환
 		// 크기가 작은 타입으로 자동 형변환 안될뿐더러 값의 손실도 일어날 수 있음
 		

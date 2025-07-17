@@ -3,7 +3,7 @@ package sec03.Exam01;
 public class PromotionExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		byte byteValue = 10;
 		int intValue = byteValue; // 1byte -> 4byte, 자동 형변환
 		System.out.println("intValue : " + intValue);

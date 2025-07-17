@@ -3,7 +3,7 @@ package sec02.exam02;
 public class ByteExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		// byte(1byte)
 		// 값의 범위 : -128~127
 		

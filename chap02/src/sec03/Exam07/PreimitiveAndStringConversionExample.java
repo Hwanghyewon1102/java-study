@@ -3,7 +3,7 @@ package sec03.Exam07;
 public class PreimitiveAndStringConversionExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		// 문자열 -> 기본 타입
 		
 		int value1 = Integer.parseInt("10");

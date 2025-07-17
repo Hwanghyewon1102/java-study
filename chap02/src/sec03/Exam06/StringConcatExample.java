@@ -3,7 +3,7 @@ package sec03.Exam06;
 public class StringConcatExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		int value = 10 + 2 + 8;
 		System.out.println("value : " + value);
 		

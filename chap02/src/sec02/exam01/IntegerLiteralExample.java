@@ -3,7 +3,7 @@ package sec02.exam01;
 public class IntegerLiteralExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		//int(4byte)
 		
 		int var1 = 0b1011; // 2진수 (하드웨어 제어 프로그래밍 시)

@@ -3,7 +3,7 @@ package sec02.exam08;
 public class BooleanExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		// boolean (1byet)
 		// true, false 2가지 상태값을 저장
 		// 제어문 (조건문, 반복문)에서 실행 흐름을 변경할 때 주로 사용

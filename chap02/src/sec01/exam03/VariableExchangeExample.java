@@ -5,7 +5,7 @@ import java.util.function.ToDoubleBiFunction;
 public class VariableExchangeExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		int x = 3;
 		int y = 5;

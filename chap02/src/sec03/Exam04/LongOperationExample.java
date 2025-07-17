@@ -3,7 +3,7 @@ package sec03.Exam04;
 public class LongOperationExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		// 정수 타입의 산술 연산에서 하나라도 long 타입이면 long 타입으로 자동 변환
 		
 		byte x = 20;

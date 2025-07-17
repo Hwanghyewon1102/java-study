@@ -5,7 +5,7 @@ import java.io.IOException;
 public class QStopExample {
 
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
+		
 		int keyCode;
 		
 		while (true) { //무한 반복

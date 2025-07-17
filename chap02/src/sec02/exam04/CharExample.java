@@ -3,7 +3,7 @@ package sec02.exam04;
 public class CharExample {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		// char(2byte)
 		// 하나의 문자를 유니코드로 저장
 		// 유니코드 : 세계 각국의 문자들을 2byte(0~65535) 범위에 맵핑한 국제 표준 규약
