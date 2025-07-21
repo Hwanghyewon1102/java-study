@@ -16,6 +16,7 @@ public class Homework3 {
 		
 		c = b / a;
 		d = b-c*a;
+	 // d = b % a;
 		
 		System.out.println("1인당 사탕 개수 : " + c +"개");
 		System.out.println("남는 사탕 개수 : " + d+"개");

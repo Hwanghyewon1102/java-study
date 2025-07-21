@@ -18,16 +18,16 @@ public class Homework3 {
 		System.out.print("세 번째 정수 : " );
 		int c = sc.nextInt();
 		
-		int d = a;
-		// 2 < 7    2 < 4
-		if(a > b) {
-		d = b;
+		int min = a;
 		
-		 if (b > c) {
-			 d = c;
-		 }
+		if(min > b) {
+			min = b;
 		}
-		System.out.println(d);
+		
+		 if (min > c) {
+			 min = c;
+		}
+		System.out.println("가장 작은 수 : " + min);
 	}
 
 }

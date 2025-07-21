@@ -13,16 +13,18 @@ public class Homework4 {
 		System.out.print("수학 : ");
 		int b = sc.nextInt();
 		
-		System.out.print("국어 : ");
+		System.out.print("영어 : ");
 		int c = sc.nextInt();
 		
 		int d = a + b + c;
 		System.out.println("합계 : " + d);
 		
-		int e = (a + b + c) / 3;
+		double e = d / 3.0;
 		System.out.println("평균 : "+e);
 		
-		System.out.println((a<=60 || b<=60 || c<=60) ? "휴대폰을 바꿀 수 없습니다." : (e>=90)? "휴대폰을 바꿀 수 있습니다" : "휴대폰을 바꿀수없습니다");
+		System.out.println((a<=60 && b<=60 && c<=60) ? "휴대폰을 바꿀 수 없습니다." 
+							: (e>=90)? "휴대폰을 바꿀 수 있습니다" : 
+									"휴대폰을 바꿀 수 없습니다");
 		
 
 	}

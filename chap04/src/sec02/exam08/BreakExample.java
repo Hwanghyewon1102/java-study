@@ -23,17 +23,11 @@ public class BreakExample {
 		
 		int i = 0;
 		int sum = 0;
-		while(true) {
-			sum += i;
+		while(sum <= 1000) {
 			i++;
-			
-			if(sum > 1000) {
-				break;
-			}
-			
-			System.out.println(sum);
-			
+			sum += i;			
 		}
+		System.out.print( i + "까지의 합 : " + sum);
 	}
 
 }
