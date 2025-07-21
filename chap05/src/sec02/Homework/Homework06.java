@@ -2,7 +2,7 @@ package sec02.Homework;
 
 import java.util.Iterator;
 
-public class Home6 {
+public class Homework06 {
 	public static void main(String[] args) {
         int a;
         
