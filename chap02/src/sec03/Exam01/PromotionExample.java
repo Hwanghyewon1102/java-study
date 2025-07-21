@@ -25,6 +25,7 @@ public class PromotionExample {
 		System.out.println("doubleValue : " + doubleValue); 
 		
 		// 주의 ! byte -> char로 자동 형변환 불가
+		
 		byte byteVal =65;
 //		char charVal = byteVal; // char는 음수를 포함하지 않는데 byte 타입은 음수를 포함
 		
