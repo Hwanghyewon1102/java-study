@@ -26,9 +26,9 @@ public class Homework08 {
 	                System.out.print("다시 입력하시겠습니까? : ");
 	                String ans = sc.nextLine().trim();
 
-	                if (ans.equalsIgnoreCase("y")) {
+	                if (ans.equals("y")) {
 	                    break;
-	                } else if (ans.equalsIgnoreCase("n")) {
+	                } else if (ans.equals("n")) {
 	                    System.out.println("프로그램을 종료합니다.");
 	                    sc.close();
 	                    return; 
