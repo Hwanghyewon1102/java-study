@@ -19,6 +19,8 @@ public class Homework2 {
 		
 			
 			System.out.println(num);
+			
+			
 		}
 		}
 	

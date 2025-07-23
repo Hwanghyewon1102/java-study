@@ -20,5 +20,7 @@ public class FieldInitValueExample {
 		System.out.println("referenceField: " + fiv.referenceField);
 		
 		
+		
+		
 	}
 }

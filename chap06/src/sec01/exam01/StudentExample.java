@@ -19,6 +19,8 @@ public class StudentExample {
 		} else {
 			System.out.println("다른 객체를 참조");
 		}
+		
+		
 	}
 
 }
