@@ -27,11 +27,11 @@ public class Homework08 {
 	                System.out.print("다시 입력하시겠습니까? : ");
 	                String ans = sc.nextLine().trim();
 
-	                if (ans.equals("y")) {
-	                    break;
-	                } else if (ans.equals("n")) {
+	                if (ans.equalsIgnoreCase("y")) { //equalsIgnoreCase 대소문자를 구분하지 않는다 
+	                    break; // 바깥 while 문으로 다시 돌아감
+	                } else if (ans.equalsIgnoreCase("n")) {
 	                    System.out.println("프로그램을 종료합니다.");
-	                    return;
+	                    return; // main() 메소드 종료
 	                } else {
 	                    System.out.println("잘못된 대답입니다. 다시 입력해주세요.");
 	                }
