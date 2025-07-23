@@ -14,13 +14,14 @@ public class Homework02 {
 			}
 
 			else if (num == 0) {
+				System.out.println("프로그램을 종료합니다");
 				break;
-			}
-
-			else if (1 <= num && num < 10) {
+			} else if (1 <= num && num < 10) {
+				// 구구단 출력
 				for (int i = num; i < 10; i++) {
+					System.out.println("=== " + i + "단 ===");
 					for (int j = 1; j < 10; j++) {
-						System.out.println(i + "*" + j + "=" + i * j);
+						System.out.println(i + " X " + j + "=" + i * j);
 					}
 				}
 

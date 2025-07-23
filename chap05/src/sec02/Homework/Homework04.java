@@ -14,6 +14,6 @@ public class Homework04 {
         } while (str.equals("yes"));
 
         System.out.println("게임을 종료합니다!");
-        sc.close();
+        
     }
 }

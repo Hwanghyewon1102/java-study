@@ -15,11 +15,12 @@ public class Homework08 {
 	            System.out.print("문자 : ");
 	            char ch = sc.nextLine().charAt(0);
 
-	            
+	            // 문자 개수 세기
 	            int count = 0;
 	            for (int i = 0; i < str.length(); i++) {
 	                if (str.charAt(i) == ch) count++;
 	            }
+	            
 	            System.out.println("포함된 개수 : " + count);
 
 	            while (true) {
@@ -30,8 +31,7 @@ public class Homework08 {
 	                    break;
 	                } else if (ans.equals("n")) {
 	                    System.out.println("프로그램을 종료합니다.");
-	                    sc.close();
-	                    return; 
+	                    return;
 	                } else {
 	                    System.out.println("잘못된 대답입니다. 다시 입력해주세요.");
 	                }
