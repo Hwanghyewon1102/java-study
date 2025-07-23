@@ -16,6 +16,8 @@ public class Homework2 {
 		
 		for(int i = 0; i < num - 1; i++) {
 			System.out.print("배열 " +  i + "번째 인덱스에 넣을 값 : ");
+		
+			
 			System.out.println(num);
 		}
 		}

@@ -24,4 +24,6 @@ public class Car {
 		System.out.println(model);
 	}
 	*/
+	
+	
 }

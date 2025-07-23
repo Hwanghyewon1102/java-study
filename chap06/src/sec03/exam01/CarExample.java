@@ -8,6 +8,8 @@ public class CarExample {
 		// 우리가 선언한 생성자에 맞게끔 매개값 제공
 		Car myCar = new Car("검정", 3000);
 		
+		
+		
 	}
 
 }

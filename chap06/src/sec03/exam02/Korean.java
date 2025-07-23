@@ -27,4 +27,7 @@ public class Korean { // 한국인들의 객체
 	
 	
 	
+	
+	
+	
 }

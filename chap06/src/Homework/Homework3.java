@@ -22,6 +22,8 @@ public class Homework3 {
 			System.out.println("다시 입력하세요");
 		}
 		else {
+		
+			
 			
 		}
 	

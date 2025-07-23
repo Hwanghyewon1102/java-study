@@ -14,5 +14,7 @@ public class FieldInitValue {
 	double doubleField;
 	
 	int[] arrField;
+
+	
 	String referenceField;
 }

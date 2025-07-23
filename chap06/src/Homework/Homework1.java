@@ -18,6 +18,8 @@ public class Homework1 {
 				if(min > hight[i]) {
 					min = hight[i];
 					
+					
+					
 				}
 			}
 			

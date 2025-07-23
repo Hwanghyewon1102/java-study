@@ -8,6 +8,9 @@ public class Homework5 {
 		
 		for(int i = 0;  i < 45; i++) {
 			
+			
+			
+			
 		}
 	}
 

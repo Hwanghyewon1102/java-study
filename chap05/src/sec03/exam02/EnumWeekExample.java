@@ -49,6 +49,8 @@ public class EnumWeekExample {
 		System.out.println("오늘 요일 : " + today); 
 		// 열거 객체의 문자열이 출력 (열어 상수의 이름과 똑같은 문자열을 갖는다.)
 		
+		
+		
 		// 열거값 비교
 		if (today == Week.SUNDAY) { // 번지를 비교
 			System.out.println("일요일에는 배드민턴");
