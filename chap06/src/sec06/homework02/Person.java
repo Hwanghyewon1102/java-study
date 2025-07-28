@@ -1,13 +1,13 @@
 package sec06.homework02;
 
 public class Person {
+		// 필드
+	    private String name;       
+	    private String address;    
 
-	    private String name;       // 내부 전용
-	    private String address;    // 내부 전용
-
-	    public String phoneNumber; // 외부 접근 가능
-	    public double height;      // 외부 접근 가능
-	    public double weight;      // 외부 접근 가능
+	    public String phoneNumber; 
+	    public double height;      
+	    public double weight;      
 
 	    // 생성자
 	    public Person(String name, String address, String phoneNumber, double height, double weight) {
@@ -18,7 +18,7 @@ public class Person {
 	        this.weight = weight;
 	    }
 
-	    // 내부에서만 사용하는 정보 출력용 메서드 (테스트용)
+	    //  메서드 
 	    public void printInternalInfo() {
 	        System.out.println("이름: " + name);
 	        System.out.println("주소: " + address);
