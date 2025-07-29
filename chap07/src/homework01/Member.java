@@ -1,21 +1,18 @@
 package homework01;
 
 public class Member {
-	public String memberld;
-	public String memberPwd;
-	public String memberName;
-	public int age;
-	public char gender;
-	public String phone;
-	public String email;
+	private String memberName;
 	
-	public Member (String memberId, String memberPwd, String memberName, int age, char gender, String phone, String email) {
-		this.memberld = memberId;
-		this.memberPwd = memberPwd;
-		this.memberName = memberName;
-		this.age = age;
-		this.gender = gender;
-		this.phone = phone;
-		this.email = email;
+	public Member() {
+		this.memberName = "이름 작성";
 	}
+	   // memberName 변경
+    public void changeName(String name) {
+        this.memberName = name;
+    }
+
+    // memberName 출력
+    public void printName() {
+        System.out.println("Member Name: " + memberName);
+    }
 }
