@@ -23,6 +23,7 @@ public class Run {
 //		- public void withdraw(int amount)
 //		출금 금액이 잔액보다 크면 InsufficientBalanceException을 발생시키고 호출한 쪽으로 예외를 떠넘깁니다.
 //		출금이 성공하면 잔액에서 차감하고, 출력 예시와 같은 메시지를 출력합니다.
+	
 //
 //	3. Run 클래스를 작성하세요.
 //	사용자 "김철수"의 계좌를 생성하고 초기 잔액은 10000원을 넣습니다.

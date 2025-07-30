@@ -12,4 +12,5 @@ public class ImplementationC implements InterfaceC {
 	public void methodC() {
 		System.out.println("ImplementationC-methodC() 실행");
 	}
+	
 }

@@ -11,6 +11,7 @@ public class NumberFormatExceptionExample {
 		int value2 = Integer.parseInt(data2); // 예외 발생
 		
 		int result = value1 + value2;
+		
 		System.out.println(data1 + " + " + data2 + " = " + result);
 	}
 

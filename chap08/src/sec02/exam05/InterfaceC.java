@@ -9,3 +9,4 @@ public interface InterfaceC extends InterfaceA, InterfaceB {
 	// 상속으로 물려받은 추상메소드 methodA(), methodB() 까지 총 3개의 메소드를 갖고 있음
 }
 
+

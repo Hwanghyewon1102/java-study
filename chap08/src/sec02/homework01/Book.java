@@ -4,5 +4,6 @@ public class Book extends Product{
 	@Override
 	void calculatePrice() {
 		super.calculatePrice();
+		
 	}
 }

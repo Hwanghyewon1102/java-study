@@ -24,6 +24,7 @@ package sec02.exam06.quiz;
 	    }
 
 	    
+	    
 	    public void deposit(int amount) {
 	    	balance += amount;
 	    	System.out.println(amount + "원이 입금되었습니다. [잔액: " + balance + "원]");

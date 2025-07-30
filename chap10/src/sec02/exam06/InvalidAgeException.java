@@ -10,3 +10,4 @@ public class InvalidAgeException extends RuntimeException {
 		super(message); // 부모 생성자로 예외 메시지 전달
 	}
 }
+

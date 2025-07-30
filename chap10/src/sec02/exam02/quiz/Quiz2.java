@@ -21,6 +21,7 @@ public class Quiz2 {
 		
 		System.out.println("=====");
 		
+		
 		// 2. 예외가 발생한 경우
 		System.out.println(1);
 		try {

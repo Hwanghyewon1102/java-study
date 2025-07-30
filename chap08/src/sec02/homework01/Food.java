@@ -4,5 +4,6 @@ public class Food extends Product{
 	@Override
 	void calculatePrice() {
 		super.calculatePrice();
+		
 	}
 }
