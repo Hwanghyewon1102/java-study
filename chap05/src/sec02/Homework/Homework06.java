@@ -4,7 +4,6 @@ import java.util.Iterator;
 
 public class Homework06 {
 	public static void main(String[] args) {
-		
 
 		for (int i = 1; i <= 5; i++) { // i = 1, 2, 3, 4, 5
 			// 공백 출력 5 - i 개
