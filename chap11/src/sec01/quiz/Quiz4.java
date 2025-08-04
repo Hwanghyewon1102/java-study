@@ -14,7 +14,7 @@ public class Quiz4 {
 		System.out.print("반 전체 학생 수를 입력하세요 : ");
 		Scanner sc = new Scanner(System.in);
 		int studentnum = sc.nextInt();
-		sc.nextLine();
+		sc.nextLine(); // 개행 문자 제거(버퍼 비우기)
 
 		String[] student = new String[studentnum];
 
@@ -23,8 +23,10 @@ public class Quiz4 {
 			student[i] = studentname;
 
 		}
-
+		
+		// 공식화 :(int) (Math.random() * (최대값 - 최소값 + 1)) + 최소값; 
 		int resultstudent = (int) (Math.random() * (student.length - 1)) + 1;
+		// = int resultstudent = (int) (Math.random() * length );
 		System.out.println("당첨 학생: " + student[resultstudent]);
 
 	}
