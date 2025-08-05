@@ -5,6 +5,7 @@ import java.util.Objects;
 // Comparable
 // 자바에서 객체 간의 "기본 정렬 순서"를 정의하기 위해 사용되는 인터페이스
 // 객체를 정렬할 수 있도록 비교 기준을 정의
+
 public class Student implements Comparable<Student> {
 	private String name;
 	private int age;

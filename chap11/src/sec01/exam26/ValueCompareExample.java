@@ -25,5 +25,6 @@ public class ValueCompareExample {
 		
 		// 굳이 예외 범위를 알고 있을 필요 없이 내부의 값을 비교할 때는 무조건 equals()메소드 이용
 	}
+	
 
 }

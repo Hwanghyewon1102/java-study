@@ -15,6 +15,7 @@ public class Quiz1 {
 //	1) 15
 //	2) 15
 //	3) 15
+	
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

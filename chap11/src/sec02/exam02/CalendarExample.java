@@ -20,6 +20,7 @@ public class CalendarExample {
 		int month = now.get(Calendar.MONTH) + 1; // 월 : 0 ~ 11
 		int day = now.get(Calendar.DAY_OF_MONTH); // 일 : 1 ~ 31
 
+		
 		System.out.print(year + "년 ");
 		System.out.print(month + "월 ");
 		System.out.println(day + "일 ");

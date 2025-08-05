@@ -19,6 +19,7 @@ public class StringBuilderExample {
 		sb.insert(4, "2");
 		System.out.println(sb.toString());
 		
+		
 		// 지정한 인덱스의 문자를 주어진 문자로 변경
 		sb.setCharAt(4, '6');
 		System.out.println(sb.toString());

@@ -66,8 +66,12 @@ public class BookMenu {
     	System.out.print("가격을 입력해 주세요 : ");
     	int price = sc.nextInt();
         // 5. 매개변수 생성자를 이용하여 Book 객체 생성
-    	Book book = new Book();  
         // 장르명 입력은 숫자로 받지만 객체 생성할때는 문자열로 넘기기
+    	System.out.println("장르명을 입력해 주세요 :");
+    	System.out.println("1:인문");
+    	System.out.println("2:자연과학");
+    	System.out.println("3:어린이");
+    	System.out.println("그 외:기타");
         // (1:인문 / 2:자연과학 / 3:어린이 / 그 외:기타)
         // 6. BookController의 insert로 Book 객체 전달
     }

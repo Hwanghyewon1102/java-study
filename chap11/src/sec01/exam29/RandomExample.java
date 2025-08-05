@@ -18,6 +18,7 @@ public class RandomExample {
 		// 동일한 시드를 넣으면 항상 같은 난수 순서(시퀀스)가 생성됨
 		// 시드를 지정하지 않으면 시스템의 현재 시각에 따라 자도으로 지정됨
 		
+		
 		int randInt1 = random.nextInt();
 		int randInt2 = random.nextInt();
 		int randInt3 = random.nextInt();

@@ -18,4 +18,5 @@ public class MathRandomExample {
 		System.out.println("로또 번호: " + lotto);
 	}
 
+	
 }

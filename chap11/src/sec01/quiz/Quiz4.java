@@ -20,6 +20,7 @@ public class Quiz4 {
 
 		for (int i = 0; i < student.length; i++) {
 			String studentname = sc.nextLine();
+			
 			student[i] = studentname;
 
 		}

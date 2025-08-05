@@ -20,6 +20,7 @@ public class Quiz3 {
 //  [힌트]
 //	indexOf(String str, int fromIndex)를 이용해 반복해서 찾기
 	
+	
 	public static int count(String str1, String str2) {
 		int result = 0;
 		int index = 0;

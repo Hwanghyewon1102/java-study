@@ -30,6 +30,7 @@ public class MathExample {
 		System.out.println("v7 = " + v7);
 		System.out.println("v8 = " + v8);
 		
+		
 		// 최소값
 		int v9 = Math.min(5, 9);
 		double v10 = Math.min(5.3, 2.5);

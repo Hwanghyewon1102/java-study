@@ -6,6 +6,7 @@ public class Person {
 	String address;
 	char gender;
 	
+	
 	private void preson(String name, int age, String address,char gender) {
 		
 	}

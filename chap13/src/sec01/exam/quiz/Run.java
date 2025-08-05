@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 
+
 public class Run {
 //	Quiz
 //	영화관 좌석의 목록 정보를 가지고 있는 ArrayList를 생성합니다.
