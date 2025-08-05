@@ -7,14 +7,16 @@ public class Homework5 {
 
 		Scanner sc = new Scanner(System.in);
 
-		System.out.print("선택 : ");
-		int a = sc.nextInt();
-		System.out.println("=== 헬스 마니아 철수 ===");
+			System.out.println("=== 헬스 마니아 철수 ===");
 		System.out.println("1. 스쿼트");
+		System.out.println("2. 데드리프트");
 		System.out.println("3. 벤치 프레스");
 		System.out.println("4. 풀업");
 		System.out.println("5. 종료");
-
+		
+		System.out.print("선택 : ");
+		int a = sc.nextInt();
+	
 		if (a == 1) {
 			System.out.println("스쿼트 운동 시간입니다.");
 		} else if (a == 2) {
