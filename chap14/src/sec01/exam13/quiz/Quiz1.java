@@ -18,6 +18,14 @@ public class Quiz1 {
 			int otnum;
 			
 			while ((otnum = reader.read(ot)) != -1) {
+				// 방법1 : 읽은 문자 수만큼 반복하면서배열에 저장된 문자를 하나씩 사용
+
+				for (int i = 0; i < otnum ; i++) {
+					System.out.print(ot[i]);
+				}
+				
+				System.out.println();
+				
 				String a = new String(ot, 0, otnum);
 				System.out.println(a);
 			}

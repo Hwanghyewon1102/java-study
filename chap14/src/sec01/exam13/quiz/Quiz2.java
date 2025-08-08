@@ -18,11 +18,24 @@ public class Quiz2 {
 	              Reader reader = new FileReader("C:/Temp/test.txt");
 	              Writer writer = new FileWriter("C:/Temp/test_copy.txt");
 	          ) {
+	    	  
+	    	  
+	    	// 방법 1  
+//	    	  while (true) {
+//				int data = reader.read();
+//				if(data == -1) break;
+//				writer.write(data);
+//			}
+	    	  
+	    	  
+	    	  // 방법 2 : 파일 크기가 클 경우 배열을 이용하여 효율적으로 처리하기
 	              char[] buffer = new char[1000];
 	              int readChars;
 	              while ((readChars = reader.read(buffer)) != -1) {
 	                  writer.write(buffer, 0, readChars);
 	              }
+	              
+	              
 	              writer.flush();
 	              System.out.println("파일 복사가 완료되었습니다.");
 	          } catch (Exception e) {
